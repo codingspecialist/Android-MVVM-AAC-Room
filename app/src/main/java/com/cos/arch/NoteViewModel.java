@@ -1,6 +1,7 @@
 package com.cos.arch;
 
 import android.app.Application;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
@@ -12,10 +13,11 @@ import java.util.List;
 // DB에 접근하기 위해 AndroidViewModel을 사용한다.
 public class NoteViewModel extends AndroidViewModel {
 
+    private static final String TAG = "NoteViewModel";
     private NoteRepository repository;
-    private LiveData<List<Note>> allNotes; //LiveData는 setValue를 하지 못한다.
-    private MutableLiveData<Boolean> mIsUpdating = new MutableLiveData<>(); //setValue가 가능하다.
-
+    // MutableLiveData 는 setValue가 가능
+    // LiveData는 setValue를 하지 못한다.
+    private LiveData<List<Note>> allNotes;
 
     public NoteViewModel(@NonNull Application application) {
         super(application);
@@ -26,7 +28,6 @@ public class NoteViewModel extends AndroidViewModel {
 
     public void insert(Note note){
         repository.insert(note);
-        mIsUpdating.setValue(true);
     }
 
     public void delete(Note note){
@@ -37,7 +38,4 @@ public class NoteViewModel extends AndroidViewModel {
         return allNotes;
     }
 
-    public MutableLiveData<Boolean> getIsUpdating(){
-        return mIsUpdating;
-    }
 }
