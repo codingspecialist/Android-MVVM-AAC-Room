@@ -2,4 +2,4 @@
 
 - <https://blog.naver.com/getinthere/221695442161>
 
-![blog](https://postfiles.pstatic.net/MjAxOTExMjVfMTY5/MDAxNTc0NjU4NTQwODcz.Tjok3bh1Sd1nvMnHTbEZw-TSuamgPU028MEds3qXNrEg._lvpYj0hlsAHRVo8Gi4RqWHEOwWu8MamN3YBi-g6nQ0g.JPEG.getinthere/Screenshot_60.jpg?type=w773)
+![blog](https://postfiles.pstatic.net/MjAxOTExMjVfODgg/MDAxNTc0NjcyODA5NzM3.YdSKx2FLuX9rICBR2S9gXj8qu3Y5Zv7czI-S2u7UYCYg.B4yyyBZekCk1YGR-5XPgowijHdMaf0ApcfQmK_g9KC8g.JPEG.getinthere/Screenshot_62.jpg?type=w773)
